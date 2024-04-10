@@ -4,7 +4,7 @@ function revealWords(words, text) {
 
     for(let word of wordsArr) {
         for(let element of textArr) {
-            if (element.includes('*') && element.length == word.length) {
+            if (element.includes('*') && element.length === word.length) {
                 text = text.replace(element, word);
             }
         }
