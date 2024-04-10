@@ -25,6 +25,3 @@ function calculateGladiatorExpenses(lostFightsCount, helmetPrice, swordPrice, sh
     console.log(`Gladiator expenses: ${expenses.toFixed(2)} aureus`);
 }
 
-// Example usage:
-calculateGladiatorExpenses(7, 2, 3, 4, 5);  // Expected output: Gladiator expenses: 16.00 aureus
-calculateGladiatorExpenses(23, 12.50, 21.50, 40, 200);  // Expected output: Gladiator expenses: 608.00 aureus
