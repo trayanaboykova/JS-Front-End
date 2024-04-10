@@ -24,7 +24,7 @@ function pyramid(base, increment) {
     let finalLayerArea = currentBase * currentBase;
     let totalGold = finalLayerArea * increment;
     layerCount++;
-    
+
     console.log(`Stone required: ${Math.ceil(totalStone)}`);
     console.log(`Marble required: ${Math.ceil(totalMarble)}`);
     console.log(`Lapis Lazuli required: ${Math.ceil(totalLapis)}`);
