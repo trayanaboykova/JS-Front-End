@@ -11,4 +11,3 @@ class Vehicle {
       this.fuel -= fuelLoss;
     }
   }
-  
