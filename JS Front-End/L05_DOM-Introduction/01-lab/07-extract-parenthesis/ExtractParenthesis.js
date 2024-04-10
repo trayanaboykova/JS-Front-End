@@ -1,5 +1,5 @@
-function extract(contentId) {
-    var paragraph = document.getElementById(contentId);
+function extract(content) {
+    var paragraph = document.getElementById(content);
 
     var text = paragraph.textContent;
 
@@ -14,3 +14,7 @@ function extract(contentId) {
     var result = matches.join("; ");
     return result;
 }
+
+
+
+
