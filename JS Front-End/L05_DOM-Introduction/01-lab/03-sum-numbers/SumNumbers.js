@@ -1,15 +1,11 @@
 function calc() {
-    var num1Field = document.getElementById("num1");
-    var num2Field = document.getElementById("num2");
-    var sumField = document.getElementById("sum");
+    // Get the values of the two input fields
+    var num1 = Number(document.getElementById("num1").value);
+    var num2 = Number(document.getElementById("num2").value);
 
-    var num1 = parseFloat(num1Field.value);
-    var num2 = parseFloat(num2Field.value);
+    // Add the numbers together
+    var sum = num1 + num2;
 
-    if (!isNaN(num1) && !isNaN(num2)) {
-        var sum = num1 + num2;
-        sumField.value = sum;
-    } else {
-        sumField.value = "Invalid input";
-    }
+    // Display the sum in the third input field
+    document.getElementById("sum").value = sum;
 }
