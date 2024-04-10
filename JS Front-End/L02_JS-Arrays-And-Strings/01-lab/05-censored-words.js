@@ -1,4 +1,4 @@
-function cencoredWords(text, word) {
+function censoredWords(text, word) {
     let regex = new RegExp(word, 'gi');
     let count = word.length;
     let replacement = '*'.repeat(count);
