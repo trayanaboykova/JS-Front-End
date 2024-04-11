@@ -1,4 +1,3 @@
-
 function solve() {
   const storyState = {
     firstName: null,
