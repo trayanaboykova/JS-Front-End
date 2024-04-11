@@ -12,35 +12,40 @@ function sprintReview(input) {
 
     for (let i = n + 1; i < input.length; i++) {
         const [command, assignee, taskIdOrIndex, newTitle, newStatus, estimatedPoints] = input[i].split(':');
-        if (command === 'Add New') {
-            if (!sprintBoard[assignee]) {
-                console.log(`Assignee ${assignee} does not exist on the board!`);
-            } else {
-                sprintBoard[assignee].push({ taskId: taskIdOrIndex, title: newTitle, status: newStatus, estimatedPoints: parseInt(estimatedPoints) });
+        switch(command) {
+            case 'Add New':
+                if (!sprintBoard[assignee]) {
+                    console.log(`Assignee ${assignee} does not exist on the board!`);
+                } else {
+                    sprintBoard[assignee].push({ taskId: taskIdOrIndex, title: newTitle, status: newStatus, estimatedPoints: parseInt(estimatedPoints) });
+                }
+                break;
 
-            }
-        } else if (command === 'Change Status') {
-            if (!sprintBoard[assignee]) {
-                console.log(`Assignee ${assignee} does not exist on the board!`);
-            } else {
-                const taskIndex = sprintBoard[assignee].findIndex(task => task.taskId === taskIdOrIndex);
-                if (taskIndex === -1) {
-                    console.log(`Task with ID ${taskIdOrIndex} does not exist for ${assignee}!`);
+            case 'Change Status':
+                if (!sprintBoard[assignee]) {
+                    console.log(`Assignee ${assignee} does not exist on the board!`);
                 } else {
-                    sprintBoard[assignee][taskIndex].status = newStatus;
+                    const taskIndex = sprintBoard[assignee].findIndex(task => task.taskId === taskIdOrIndex);
+                    if (taskIndex === -1) {
+                        console.log(`Task with ID ${taskIdOrIndex} does not exist for ${assignee}!`);
+                    } else {
+                        sprintBoard[assignee][taskIndex].status = newTitle;
+                    }
                 }
-            }
-        } else if (command === 'Remove Task') {
-            if (!sprintBoard[assignee]) {
-                console.log(`Assignee ${assignee} does not exist on the board!`);
-            } else {
-                const index = parseInt(taskIdOrIndex);
-                if (index < 0 || index >= sprintBoard[assignee].length) {
-                    console.log('Index is out of range!');
+                break;
+
+            case 'Remove Task':
+                if (!sprintBoard[assignee]) {
+                    console.log(`Assignee ${assignee} does not exist on the board!`);
                 } else {
-                    sprintBoard[assignee].splice(index, 1);
+                    const index = parseInt(taskIdOrIndex);
+                    if (index < 0 || index >= sprintBoard[assignee].length) {
+                        console.log('Index is out of range!');
+                    } else {
+                        sprintBoard[assignee].splice(index, 1);
+                    }
                 }
-            }
+                break;
         }
     }
 
@@ -79,9 +84,3 @@ function sprintReview(input) {
         console.log('Sprint was unsuccessful...');
     }
 }
-
-
-
-
-
-
