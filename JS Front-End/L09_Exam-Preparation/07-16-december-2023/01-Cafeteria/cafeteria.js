@@ -36,39 +36,3 @@ function processCafeteria(input) {
         console.log(`Barista: ${baristaName}, Shift: ${shift}, Drinks: ${drinks.join(', ')}`);
     }
 }
-
-// Test cases
-const input1 = [
-    '3',
-    'Alice day Espresso,Cappuccino',
-    'Bob night Latte,Mocha',
-    'Carol day Americano,Mocha',
-    'Prepare / Alice / day / Espresso',
-    'Change Shift / Bob / night',
-    'Learn / Carol / Latte',
-    'Learn / Bob / Latte',
-    'Prepare / Bob / night / Latte',
-    'Closed'
-];
-
-const input2 = [
-    '4',
-    'Alice day Espresso,Cappuccino',
-    'Bob night Latte,Mocha',
-    'Carol day Americano,Mocha',
-    'David night Espresso',
-    'Prepare / Alice / day / Espresso',
-    'Change Shift / Bob / day',
-    'Learn / Carol / Latte',
-    'Prepare / Bob / night / Latte',
-    'Learn / David / Cappuccino',
-    'Prepare / Carol / day / Cappuccino',
-    'Change Shift / Alice / night',
-    'Learn / Bob / Mocha',
-    'Prepare / David / night / Espresso',
-    'Closed'
-];
-
-processCafeteria(input1);
-console.log();
-processCafeteria(input2);
