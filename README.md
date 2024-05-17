@@ -1,5 +1,5 @@
 # JS-Front-End
-Task from my course JS Front-End at Softuni
+Task from my course JS Front-End at <a href="www.softuni.bg">SoftUni</a>
 
 <b> Course Curriculum: JS Front-End </b>
 
