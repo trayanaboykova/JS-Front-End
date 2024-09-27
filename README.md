@@ -27,7 +27,7 @@ I gained an overview of HTTP and its importance in web development. I learned to
 **[Asynchronous Programming](https://github.com/trayanaboykova/JS-Front-End/tree/main/JS%20Front-End/L07_Asynchronous-Programming)**: <br>
 I explored the differences between synchronous and asynchronous programming. I learned about promises and how to use them for managing asynchronous operations. I practiced making AJAX requests and using the Fetch API for network operations. Additionally, I gained proficiency in using ES6 async/await syntax to write clean and readable asynchronous code.
 
-In this JavaScript course, I've covered the basics of JS syntax, arrays, strings, functions, objects, and classes. I explored DOM manipulation, event handling, HTTP, REST, and asynchronous programming. This comprehensive training has equipped me to design, develop, and optimize dynamic web applications for real-world scenarios.
+*In this [JS Front-End Course](https://softuni.bg/trainings/4362/js-front-end-february-2024), I've covered the basics of JS syntax, arrays, strings, functions, objects, and classes. I explored DOM manipulation, event handling, HTTP, REST, and asynchronous programming. This comprehensive training has equipped me to design, develop, and optimize dynamic web applications for real-world scenarios.*
 
 # Certificate
 <a href="https://softuni.bg/certificates/details/212601/27c615b1" rel="nofollow"><img src="https://github.com/trayanaboykova/readme/assets/101351760/381bb667-2697-4292-a6f1-98254cc3c0cb" alt="JSFront-End"></a>
