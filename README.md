@@ -1,5 +1,8 @@
 # JS-Front-End
 Task from my course JS Front-End at <a href="www.softuni.bg">SoftUni</a> 
+<br>
+All of the solutions have passed 100/100 - you can check them here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/379/JS-Front-End">JS Front-End</a>
+<br>
 
 <b> Course Curriculum: JS Front-End </b>
 
