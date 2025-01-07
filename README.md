@@ -4,7 +4,7 @@ Task from my course JS Front-End at <a href="https://softuni.bg/">SoftUni</a>
 All of the solutions have passed 100/100 - you can check them here: <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/379/JS-Front-End">JS Front-End</a>
 <br>
 
-<b> Course Curriculum: JS Front-End </b>
+<b> Course Curriculum: [JS Front-End Course](https://softuni.bg/trainings/4362/js-front-end-february-2024) </b>
 
 **[JS Syntax Fundamentals](https://github.com/trayanaboykova/JS-Front-End/tree/main/JS%20Front-End/L01_JS-Syntax-Fundamentals)**: <br>
 In this section, I learned the foundational concepts of JavaScript syntax. I delved into data types and variables, understanding how to store and manipulate data. I explored conditional statements to control the flow of my programs and practiced using loops (both while and for loops) to perform repetitive tasks. Additionally, I honed my debugging skills to identify and fix errors in my code.
